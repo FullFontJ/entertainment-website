@@ -1,8 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  /* main color */
+  --color-Mine-Shaft: #333333;
+  --color-Sunglow: #ffce35;
+  --color-Persimmon: #ff684a;
+  /* Neutral Colors */
+  --color-Alabaster: #f9f9f9;
+  --color-Scorpi: #575757;
+  --color-Alto: #d6d6d6;
+  --color-Silver-Chalice: #a0a0a0;
+  /* Media Score Colors */
+  --color-Christi: #48b80f;
+  --color-Selective-Yellow: #ffb300;
+  --color-Red-Orange: #ff2929; 
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
